@@ -23,6 +23,11 @@
                     "flags": {
                         "is_sneaking": false
                     },
+                    "type_specific/player": {
+                        "gamemode": [
+                            "creative"
+                        ]
+                    },
                     "equipment": {
                         "offhand": {
                             "predicates": {
