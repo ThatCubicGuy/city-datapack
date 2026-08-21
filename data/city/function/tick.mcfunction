@@ -10,7 +10,7 @@ execute store result score .Gametime timestamp run time query gametime
 
 # Keycards
 
-execute as @e[type=interaction, scores={copying_timer=1}] at @s run function city:keycards/access_revoke
-scoreboard players remove @e[type=interaction, scores={copying_timer=1..}] copying_timer 1
+execute as @e[type=interaction, scores={unlock_duration=1}] at @s run function city:keycards/access_revoke
+scoreboard players remove @e[type=interaction, scores={unlock_duration=1..}] unlock_duration 1
 
 function city:keycards/copy_tick

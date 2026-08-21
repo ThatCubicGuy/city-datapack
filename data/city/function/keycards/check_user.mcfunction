@@ -11,5 +11,5 @@ advancement revoke @s only city:keycards/use_reader
 data remove storage city:technical KeycardUseData
 
 # Return 1 if reader opened, else fail
-execute if score @s generic_timer_1tick matches 1.. run return 1
+execute if score @s unlock_duration matches 1.. run return 1
 return fail

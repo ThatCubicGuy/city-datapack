@@ -1,2 +1,2 @@
-scoreboard players reset @s generic_timer_1tick
+scoreboard players reset @s copying_duration
 tag @s remove copying
