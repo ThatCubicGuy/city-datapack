@@ -8,11 +8,11 @@
         "frame": "goal",
         "icon": "potion",
         "title": {
-            "translate": "advancement.city.jobs.starbucks",
+            "translate": "advancements.city.jobs.starbucks",
             "color": "white"
         },
         "description": {
-            "translate": "advancement.city.jobs.starbucks_description",
+            "translate": "advancements.city.jobs.starbucks_description",
             "color": "dark_purple",
             "italic": true
         },

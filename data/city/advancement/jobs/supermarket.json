@@ -8,11 +8,11 @@
         "frame": "goal",
         "icon": "minecart",
         "title": {
-            "translate": "advancement.city.jobs.supermarket",
+            "translate": "advancements.city.jobs.supermarket",
             "color": "white"
         },
         "description": {
-            "translate": "advancement.city.jobs.supermarket_description",
+            "translate": "advancements.city.jobs.supermarket_description",
             "color": "dark_purple",
             "italic": true
         },

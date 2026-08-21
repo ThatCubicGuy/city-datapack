@@ -8,11 +8,11 @@
         "frame": "goal",
         "icon": "baked_potato",
         "title": {
-            "translate": "advancement.city.jobs.mcdonalds",
+            "translate": "advancements.city.jobs.mcdonalds",
             "color": "white"
         },
         "description": {
-            "translate": "advancement.city.jobs.mcdonalds_description",
+            "translate": "advancements.city.jobs.mcdonalds_description",
             "color": "dark_purple",
             "italic": true
         },

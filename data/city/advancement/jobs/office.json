@@ -8,11 +8,11 @@
         "frame": "goal",
         "icon": "painting",
         "title": {
-            "translate": "advancement.city.jobs.office",
+            "translate": "advancements.city.jobs.office",
             "color": "white"
         },
         "description": {
-            "translate": "advancement.city.jobs.office_description",
+            "translate": "advancements.city.jobs.office_description",
             "color": "dark_purple",
             "italic": true
         },

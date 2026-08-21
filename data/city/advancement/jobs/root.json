@@ -8,11 +8,11 @@
         "frame": "task",
         "icon": "paper",
         "title": {
-            "translate": "advancement.city.jobs.root",
+            "translate": "advancements.city.jobs.root",
             "color": "aqua"
         },
         "description": {
-            "translate": "advancement.city.jobs.root_description",
+            "translate": "advancements.city.jobs.root_description",
             "color": "gold",
             "italic": true
         },

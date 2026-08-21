@@ -8,11 +8,11 @@
         "frame": "goal",
         "icon": "lead",
         "title": {
-            "translate": "advancement.city.jobs.kebab",
+            "translate": "advancements.city.jobs.kebab",
             "color": "white"
         },
         "description": {
-            "translate": "advancement.city.jobs.kebab_description",
+            "translate": "advancements.city.jobs.kebab_description",
             "color": "dark_purple",
             "italic": true
         },
