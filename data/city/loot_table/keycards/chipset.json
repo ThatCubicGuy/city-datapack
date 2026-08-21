@@ -27,7 +27,12 @@
               "mode": "replace_all",
               "lore": [
                 {
-                  "translate": "item.city.keycard_chipset_description",
+                  "translate": "item.city.keycard_chipset_description_1",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "item.city.keycard_chipset_description_2",
                   "color": "gray",
                   "italic": false
                 }

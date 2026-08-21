@@ -5,12 +5,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:warped_fungus_on_a_stick",
+          "name": "minecraft:music_disc_11",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
-                "!max_damage": {},
+                "!jukebox_playable": {},
                 "item_model": "city:keycard",
                 "custom_data": {
                   "city:item": "keycard",
