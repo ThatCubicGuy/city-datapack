@@ -3,8 +3,6 @@ scoreboard objectives add datetime dummy
 scoreboard objectives add timestamp dummy
 scoreboard objectives add money dummy {"text": "Money", "color": "yellow", "hover_event": {"action": "show_text", "value": {"text": "$$$", "color": "dark_green"}}}
 scoreboard objectives add spawned_keycard_reader used:cow_spawn_egg
-scoreboard objectives add access_timer dummy
-scoreboard objectives add copying_timer dummy
 
 # Generic Timers
 scoreboard objectives add generic_timer_1tick dummy
