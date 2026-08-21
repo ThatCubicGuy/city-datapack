@@ -21,7 +21,14 @@
                     "translate": "block.city.keycard_reader"
                   },
                   "data": {
-                    "city:keycard_access_time": 60
+                    "city:keycard_access_time": 60,
+                    "city:keycard_colors": {
+                      "red": false,
+                      "cyan": false,
+                      "green": false,
+                      "purple": false,
+                      "yellow": false
+                    }
                   }
                 },
                 "rarity": "uncommon",

@@ -1,40 +1,22 @@
 {
-  "condition": "all_of",
-  "terms": [
-    {
-      "condition": "entity_properties",
-      "predicate": {
-        "equipment": {
-          "offhand": {
-            "components": {
-              "custom_data": {
-                "city:item": "circuit_board"
-              }
-            }
+  "condition": "entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "predicates": {
+          "custom_data": {
+            "city:item": "keycard"
           }
         }
       },
-      "entity": "this"
-    },
-    {
-      "condition": "any_of",
-      "terms": [
-        {
-          "condition": "entity_properties",
-          "predicate": {
-            "equipment": {
-              "mainhand": {
-                "components": {
-                  "custom_data": {
-                    "city:item": "keycard"
-                  }
-                }
-              }
-            }
-          },
-          "entity": "this"
+      "offhand": {
+        "predicates": {
+          "custom_data": {
+            "city:item": "circuit_board"
+          }
         }
-      ]
+      }
     }
-  ]
+  }
 }
