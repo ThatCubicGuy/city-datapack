@@ -1,0 +1,20 @@
+{
+    "criteria": {},
+    "display": {
+        "frame": "task",
+        "icon": "paper",
+        "title": {
+            "translate": "advancement.city.jobs.root",
+            "color": "aqua"
+        },
+        "description": {
+            "translate": "advancement.city.jobs.root_description",
+            "color": "gold",
+            "italic": true
+        },
+        "background": "gui/advancements/backgrounds/end",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    }
+}

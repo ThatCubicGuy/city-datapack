@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "frame": "goal",
+        "icon": "lead",
+        "title": {
+            "translate": "advancement.city.jobs.kebab",
+            "color": "white"
+        },
+        "description": {
+            "translate": "advancement.city.jobs.kebab_description",
+            "color": "dark_purple",
+            "italic": true
+        },
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "city:jobs/root"
+}
