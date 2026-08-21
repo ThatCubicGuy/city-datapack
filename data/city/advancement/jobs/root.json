@@ -1,5 +1,9 @@
 {
-    "criteria": {},
+    "criteria": {
+        "Unlocked": {
+            "trigger": "impossible"
+        }
+    },
     "display": {
         "frame": "task",
         "icon": "paper",
