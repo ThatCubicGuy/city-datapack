@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!jukebox_playable": {},
+                "item_model": "city:keycard_chipset",
+                "custom_data": {
+                  "city:item": "keycard_chipset"
+                },
+                "rarity": "rare",
+                "item_name": {
+                  "translate": "item.city.keycard_chipset"
+                },
+                "max_stack_size": 8
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "item.city.keycard_chipset_description",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

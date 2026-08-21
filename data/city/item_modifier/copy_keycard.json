@@ -2,9 +2,18 @@
   "function": "sequence",
   "functions": [
     {
-      "function": "set_loot_table",
-      "name": "city:id_card",
-      "type": "chest"
+      "function": "copy_custom_data",
+      "ops": [
+        {
+          "op": "replace",
+          "source": "KeycardCopyData.Color",
+          "target": "city:keycard_color"
+        }
+      ],
+      "source": {
+        "type": "storage",
+        "source": "city:technical"
+      }
     }
   ]
 }
