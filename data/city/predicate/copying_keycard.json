@@ -1,0 +1,40 @@
+{
+  "condition": "all_of",
+  "terms": [
+    {
+      "condition": "entity_properties",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "components": {
+              "custom_data": {
+                "city:item": "circuit_board"
+              }
+            }
+          }
+        }
+      },
+      "entity": "this"
+    },
+    {
+      "condition": "any_of",
+      "terms": [
+        {
+          "condition": "entity_properties",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "components": {
+                  "custom_data": {
+                    "city:item": "keycard"
+                  }
+                }
+              }
+            }
+          },
+          "entity": "this"
+        }
+      ]
+    }
+  ]
+}

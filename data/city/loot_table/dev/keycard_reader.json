@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "cow_spawn_egg",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "entity_data": {
+                  "id": "interaction",
+                  "Tags": [
+                    "city_keycard_reader"
+                  ],
+                  "width": 0.4,
+                  "height": 0.4,
+                  "CustomName": {
+                    "translate": "block.city.keycard_reader"
+                  },
+                  "data": {
+                    "city:keycard_access_time": 60
+                  }
+                },
+                "rarity": "uncommon",
+                "item_name": {
+                  "translate": "item.city.keycard_reader"
+                },
+                "max_stack_size": 1
+              }
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "item.city.keycard_reader.description",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

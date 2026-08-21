@@ -1,0 +1,6 @@
+{
+    "condition": "minecraft:time_check",
+    "clock": "minecraft:overworld",
+    "period": 250,
+    "value": 0
+}

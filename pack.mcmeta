@@ -1,0 +1,12 @@
+{
+  "pack": {
+    "min_format": [107, 1],
+    "max_format": [107, 1],
+    "description": [
+      {
+        "text": "\"Enjoy\" a realistic life in Minecraft.",
+        "color": "gray"
+      }
+    ]
+  }
+}

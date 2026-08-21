@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!max_damage": {},
+                "minecraft:item_model": "city:circuit_board",
+                "minecraft:custom_data": {
+                  "city:item": "circuit_board"
+                },
+                "rarity": "common",
+                "minecraft:item_name": {
+                  "translate": "item.city.circuit_board"
+                },
+                "minecraft:max_stack_size": 16
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

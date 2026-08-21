@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "max_damage": 12,
+                "minecraft:item_model": "city:screwdriver",
+                "minecraft:custom_data": {
+                  "city:item": "screwdriver"
+                },
+                "rarity": "common",
+                "minecraft:item_name": {
+                  "translate": "item.city.screwdriver"
+                },
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

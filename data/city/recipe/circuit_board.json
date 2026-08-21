@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "minecraft:redstone",
+        "minecraft:gold_nugget",
+        "minecraft:copper_ingot",
+        "minecraft:redstone"
+    ],
+    "result": {
+        "id": "minecraft:knowledge_book",
+        "count": 1,
+        "components": {
+            "item_model": "city:item/circuit_board"
+        }
+    },
+    "category": "redstone"
+}

@@ -1,0 +1,73 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!max_damage": {},
+                "minecraft:item_model": "city:id_card",
+                "minecraft:custom_data": {
+                  "city:item": "id_card"
+                },
+                "rarity": "uncommon",
+                "minecraft:item_name": {
+                  "translate": "item.city.id_card",
+                  "color": "#0D90E1",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "item.city.id_card.description_1",
+                  "with": [
+                    {
+                      "selector": "@s"
+                    }
+                  ],
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "item.city.id_card.description_2",
+                  "with": [
+                    {
+                      "score": {
+                        "name": ".Day",
+                        "objective": "datetime"
+                      }
+                    },
+                    {
+                      "score": {
+                        "name": ".Month",
+                        "objective": "datetime"
+                      }
+                    },
+                    {
+                      "score": {
+                        "name": ".Year",
+                        "objective": "datetime"
+                      }
+                    }
+                  ],
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "entity": "this"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

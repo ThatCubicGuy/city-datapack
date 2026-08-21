@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "Activate": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "interaction",
+                    "entity_tags": {
+                        "all_of": [
+                            "city_keycard_reader",
+                            "city_configured"
+                        ]
+                    }
+                },
+                "item": {
+                    "predicates": {
+                        "custom_data": {
+                            "city:item": "keycard"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "city:keycards/check_user"
+    }
+}

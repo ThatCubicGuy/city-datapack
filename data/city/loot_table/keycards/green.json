@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!max_damage": {},
+                "item_model": "city:keycard",
+                "custom_data": {
+                  "city:item": "keycard",
+                  "city:keycard_color": "green"
+                },
+                "custom_model_data": {
+                  "strings": ["keycard:green"]
+                },
+                "rarity": "common",
+                "item_name": {
+                  "translate": "item.city.keycard"
+                },
+                "max_stack_size": 8
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "item.city.keycard_description",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "item.city.keycard_color",
+                  "color": "gray",
+                  "italic": false,
+                  "with": [
+                    {
+                      "translate": "item.city.keycard_color.green",
+                      "color": "dark_green",
+                      "italic": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
